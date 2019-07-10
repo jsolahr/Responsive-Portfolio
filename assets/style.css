@@ -1,0 +1,283 @@
+/*Body Background*/ 
+body {
+  background-image: url(https://github.com/jsolahr/Basic-Portfolio/blob/master/assets/images/concrete_seamless.png?raw=true);
+  margin: 0px;
+  align-content: center;
+}
+/*Header Section */
+.header {
+  position: fixed;
+  top: 0%;
+  background-color: #ffffff;
+  border-color: #cccccc;
+  border-style: solid;
+  border-width: .02px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+.headercontainer {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+} 
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-bottom: 0px;
+  background-color: #4aaaa5;
+  border-color: #cccccc;
+  border-style: solid;
+  border-width: 1px;
+  color: #ffffff;
+  font-size: 24px;
+  width: 200px;
+  height: 60px;
+  line-height: 61px;
+  position: relative;
+  left: -22px;
+  bottom: -16px;
+  margin-top: 14px;
+  display: inline-block;
+  text-align: center;
+}
+.nav {
+  margin-left: 547px;
+  padding-bottom: 0px;
+  width: 960px;
+  height: 15px;
+  font-size: 16px;
+  word-spacing: 6px;
+  color: #777777;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+li {
+  display: inline;
+}
+/* ContentBox */
+.content {
+  background-color: #ffffff;
+  display: block;
+  padding: 30px;
+  margin-top: 118px;
+  margin-left: auto;
+  margin-right: auto;
+  border-color:#dddddd;
+  border-style: solid;
+  border-width: .02px;
+  align-content: center;
+  width: 960px;
+  height: 400px;
+  color: #777777;
+} 
+/*Page-Name*/
+h2 {
+  margin-top: 6px;
+  padding-left:2px;
+  color: #4aaaa5; 
+  font-size: 28px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*solidline*/
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color:#cccccc;
+}
+#myaboutmepic {
+  padding-right: 15px;
+  margin: 0px;
+  height: 200px;
+  width: 200px;
+  color: #777777;
+}
+#aboutmeparagraph {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+  border: 10px;
+  float: left;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+ a {
+   color: gray;
+}
+/*Portfolio Page*/ 
+#boxcontainer {
+  margin-bottom: 5px;
+  padding: 0;
+  width: 800px;
+  height: 0px;
+ }
+.Box1-Image {
+  background-image:url(https://cdn.visitutah.com/media/15892363/web2000-northguardianangel_joenewman.jpg?anchor=center&mode=crop&width=1140&height=760&rnd=131877746960000000&quality=86);  
+  height:100px;
+  width: 160px;
+  margin: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+}
+.Box2-Image {
+  background-image:url(https://i0.wp.com/tripswithtykes.com/wp-content/uploads/2017/04/Bryce-Canyon-Hoodoos-from-the-rim.jpg?fit=750%2C563&ssl=1);  
+  height: 100px;
+  width: 160px;
+  margin: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+}
+.Box3-Image {
+  background-image:url(https://www.planetware.com/photos-large/USCA/california-yosemite-things-to-do-yosemite-falls.jpg);  
+  height: 100px;
+  width: 160px;
+  margin: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+}
+.Box4-Image {
+  background-image:url(https://www.planetware.com/photos-large/USCA/california-yosemite-things-to-do-yosemite-falls.jpg);  
+  height: 100px;
+  width: 160px;
+  margin: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+}
+.Box5-Image{
+  background-image:url(https://www.planetware.com/photos-large/USCA/california-yosemite-things-to-do-yosemite-falls.jpg);  
+  height: 100px;
+  width: 160px;
+  margin: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+.buttons {
+  text-align: center;
+  position: absolute;
+  width: 160px;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  position: relative;
+}
+/*Contact Page*/ 
+form {
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 15px 0px 0px 0px;
+}
+input[type=text] {
+  width: 920px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  color: gray;
+}
+input[type=submit] {
+  width: 40px;
+  background-color: #4aaaa5;
+  color: white;
+}
+#subject {
+  width: 920px;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  color:gray;
+  border-color: #cccccc;
+  resize: none;
+}
+button {
+  width: 100px;
+  height: 40px;
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 14px;
+}
+ /* StaticFooter */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ffffff;
+  font-size: 9px;
+  background-color:#666666;
+  width:100%;
+  height:40px;
+  border-top: 8px solid #4aaaa5;
+  line-height:60px;
+  text-align:center;
+}
+
+/************************************************************************************
+Smaller than 960px
+*************************************************************************************/
+@media screen and (max-width: 960px) {
+  .header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: .02px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 960px;
+  }
+
+.headercontainer {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+/************************************************************************************
+Smaller than 650px
+*************************************************************************************/
+@media screen and (max-width: 768px) {
+  .header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: .02px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  .headercontainer {
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}
+
+/************************************************************************************
+smaller than 560
+*************************************************************************************/
+@media screen and (max-width: 640px) {
+
+.headercontainer {
+  width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
