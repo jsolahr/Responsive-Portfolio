@@ -229,55 +229,137 @@ footer {
   text-align:center;
 }
 
-/************************************************************************************
-Smaller than 960px
-*************************************************************************************/
-@media screen and (max-width: 960px) {
-  .header {
-    background-color: #ffffff;
-    border-color: #cccccc;
-    border-style: solid;
-    border-width: .02px;
-    margin-left: 0;
-    margin-right: 0;
-    width: 960px;
-  }
 
-.headercontainer {
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-}
-}
 /************************************************************************************
-Smaller than 650px
+Smaller than 736px
 *************************************************************************************/
 @media screen and (max-width: 768px) {
-  .header {
-    background-color: #ffffff;
+  body {
+    background-image: url(https://github.com/jsolahr/Basic-Portfolio/blob/master/assets/images/concrete_seamless.png?raw=true);
+    margin: 0px;
+  }
+.header {
     border-color: #cccccc;
     border-style: solid;
     border-width: .02px;
-    margin-left: 0;
-    margin-right: 0;
+  }
+.headercontainer {
+    background-color: #4aaaa5;
     width: 100%;
   }
-  .headercontainer {
-    width: 768px;
-    margin-left: auto;
-    margin-right: auto;
+  h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 0px;
+    background-color: none;
+    border-color: none;
+    border-style: none;
+    border-width: 1px;
+    color: #ffffff;
+    font-size: 24px;
+    width: 200px;
+    height: 60px;
+    line-height: 61px;
+    position: relative;
+    left: -22px;
+    bottom: -16px;
+    margin-top: 14px;
+    display: inline-block;
+    text-align: center;
   }
-  
+.nav {
+    font-size: 16px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+    padding-bottom: 0px;
+    font-size: 12px;
+    word-spacing: 6px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    display: center;
+  }
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: center;
 }
-
-/************************************************************************************
-smaller than 560
-*************************************************************************************/
-@media screen and (max-width: 640px) {
-
-.headercontainer {
-  width: 560px;
+li {
+  display: center;
+}
+/* ContentBox */
+.content {
+  width: 768px;
+  background-color: #ffffff;
+  display: block;
+  padding: 30px;
+  margin-top: 118px;
   margin-left: auto;
   margin-right: auto;
+  border-color:#dddddd;
+  border-style: solid;
+  border-width: .02px;
+  align-content: center;
+  height: 600px;
+  color: #777777;
+} 
+/*Page-Name*/
+h2 {
+  color: #4aaaa5; 
+  font-size: 28px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*solidline*/
+hr { 
+  width: 768px;
+  margin-bottom: 0px;
+  border-style: solid;
+  border-width: 1px;
+  border-color:#cccccc;
+  display: none;
+}
+#myaboutmepic {
+  padding-right: 0;
+  margin: 15px;
+  height: 20%;
+  width: 30%;
+  color: #777777;
+}
+#aboutmeparagraph {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+  border: 10px;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 330px;
+}
+ a {
+   color: gray;
+}
+.container {
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 15px 0px 0px 0px;
+  width: 300px;;
+  margin: 0px;
+}
+input[type=text] {
+  width: px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  color: gray;
+}
+footer {
+  position: fixed;
+  left: 0%;
+  bottom: 0%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ffffff;
+  font-size: 9px;
+  background-color:#666666;
+  width:100%;
+  border-top: 8px solid #4aaaa5;
+  text-align:center;
 }
 }
